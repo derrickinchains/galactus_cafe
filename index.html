@@ -6,15 +6,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         
         <title>The Galactus Cafe</title>
-    
-        <!-- Bootstrap CSS CDN -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-        <!-- Our Custom CSS -->
-        <link rel="stylesheet" href="style.css">
+        
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
 
-        <!-- Font Awesome JS -->
+        <!-- Bootstrap CSS CDN 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        -->
+        
+            <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Font Awesome JS 
         <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+        -->
+    
     </head>
 
     <body>
@@ -23,47 +31,64 @@
             <!-- Sidebar -->
             <nav id="sidebar">
                 <div class="sidebar-header">
-                    <h3>Bootstrap Sidebar</h3>
+                    <a href="#"><img src="img/galactuslogo.PNG" height="150" class="center"/> </a>
                 </div>
             
                 <ul class="list-unstyled components">
                     <p>Dummy Heading</p>
                     
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">
+                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                            About
+                        </a>
                     </li>
                     
                     <li>
-                        <a href="#">Menu</a>
+                        <a href="#">
+                            <i class="fa fa-cutlery" aria-hidden="true"></i>
+                            Menu
+                        </a>
                     </li>
                     <li>
-                        <a href="#">Reserve</a>
+                        <a href="#">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            Reserve
+                        </a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            Contact
+                        </a>
                     </li>
                 </ul>
+                <div class="text-center center">
+                    <h5>Connect with us!</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook"href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter"href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google"href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
             </nav>
             
             <!-- Page Content -->
             <div id="content">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-            
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
                         <button type="button" id="sidebarCollapse" class="btn btn-dark">
-                            <i class="fas fa-align-left"></i>
-                            <span>Toggle Sidebar</span>
+                            <i class="fa fa-align-left"></i>
+                            <span></span>
                         </button>
-            
-                    </div>
+                   </div>
+                  
                 </nav>
-            </div>
-        
-            
-
+                
+           </div>
+               
         </div>           
         
-        
+     
         
         
         <!-- jQuery CDN - Slim version (=without AJAX) -->
